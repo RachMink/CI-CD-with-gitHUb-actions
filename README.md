@@ -11,4 +11,13 @@ Within gitHub actions I choose the Node.js workflow which creates a YAML file.
 `jobs:` this is what is run every time something is pushed to the main branch
 `build:` 
 
-`runs-on:` specifies where this runs on - in our case `self-hosted`
+`runs-on:` specifies where this runs on - in our case `self-hosted` - virtual private server
+`node-version:` runs all the jobs for every version of Node.js
+
+`steps:` what we want the script to run
+`run npm i` i stands for install, 
+after all depedencies are installed, we run the build 
+`run npm build --if-present ` run the build if the script is present
+
+`run npm test` runs all the test cases 
+
