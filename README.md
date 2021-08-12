@@ -51,8 +51,9 @@ This shows the first step of the build which declares my runner to be the one I 
 Once each job is completed successfully we will see a green check next to the build 
 <img width="1109" alt="Screen Shot 2021-08-12 at 2 46 16 PM" src="https://user-images.githubusercontent.com/82296790/129251636-6e397fa3-6618-445a-b985-55cb1e29860d.png">
 
-Now, in order to view my app deployed on the web I use nginx which is already installed on my mac and change the root to see my edits in the server. 
+Now, in order to view my app deployed on the web I use Nginx which is a web server already installed on my mac and change the root to see my edits in the server. 
 
+<img width="1082" alt="Screen Shot 2021-08-12 at 5 03 46 PM" src="https://user-images.githubusercontent.com/82296790/129269569-bab0a0bc-f996-46cc-9cda-5c53729f0979.png">
 
 
 #### Sources Used
