@@ -1,4 +1,4 @@
-# Creating and deploying a React app with gitHib Actions and nginx
+# Creating and deploying a React app with gitHub Actions and nginx
 
 For this project I created a react app in VS code and pushed all the appropriate files and folders to my gitHub repository. I then use gitHub actions to create a workflow that continuosly builds the React app when any chages are pushed to the repository. 
 
